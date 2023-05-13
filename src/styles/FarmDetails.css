@@ -1,0 +1,112 @@
+.aboutpage{
+  display: flex;
+  flex-direction: column;
+  /* background-color: #E8F1EE; */
+  align-items: center;
+  /* justify-content: center; */
+}
+
+.contents{
+  /* background-color: white; */
+  width:90%;
+  height:500;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+}
+.about{
+  width:980px;
+  height:300;
+  background-color: white;
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  /* padding: 20px 100px; */
+  
+}
+
+#aboutTt{
+  font-size: 20px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header{
+  background-color: #21CE99;
+  height:30px;
+  color: white;
+  margin-top:10px;
+  border-radius: 10px;
+  /* text-align: center; */
+  /* vertical-align: middle; */
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+
+#text1{
+  margin-top: 5px;
+}
+
+
+#details{
+  margin-top: 30px;
+  width:400px;
+  height:300px;
+  font-size: 15px;
+}
+
+#contact{
+  margin-top: 30px;
+  width:400px;
+  height:300px;
+  font-size: 15px;
+}
+
+.seperator{
+  width:3px;
+  height:310px;
+  background-color: #21CE99;
+}
+
+.sideA{
+  /* margin-top: 40px; */
+  margin-right: 40px;
+}
+
+.sideB{
+  /* margin-top: 40px; */
+  margin-left: 40px;
+}
+
+.phone{
+  display: flex;
+  flex-direction: column;
+}
+
+#no{
+  margin-left: 10px;
+  font-size: 15px;
+}
+
+.email{
+  display: flex;
+  flex-direction: column;
+}
+
+#em{
+  margin-left: 10px;
+  font-size: 15px;
+}
+
+.location{
+  display: flex;
+  flex-direction: column;
+}
+
+#loc{
+  margin-left: 10px;
+  font-size: 15px;
+}
