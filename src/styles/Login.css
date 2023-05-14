@@ -1,0 +1,205 @@
+.login {
+    width: 100%;
+    /* height: 90vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-position: center;
+    background-size: cover;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .topBar {
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-position: center;
+    background-color:#17916B;
+    background-size: cover;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+
+.login .greenbar{
+    width: 100%;
+    height: 5px;
+    background-color: #21CE99;
+}
+
+.login .iconBig{
+    margin-top: 10px;
+}
+.topBar .subBar{
+    display: flex;
+    border-radius: 35px;
+    background-color: white;
+    width: 190px;
+    height: 40px;
+    align-items: center;
+}
+
+.topBar .subBar img{
+    margin-left: 5px;
+    align-items: center;
+    justify-self: center;
+}
+
+.topBar .subBar h1{
+    margin-left: 15px;
+    align-items: center;
+    justify-self: center;
+    color: #17916B;
+    width: 2px;
+    font-size: 24px;
+}
+
+
+.login p{
+    font-size:xx-large;
+    font-family: Allura;
+}
+
+.login .loginCard{
+    width:384px;
+    height: auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    margin-bottom: 400px;
+}
+
+
+.login .loginCard .greenHeader{
+    background-color: #17916B;
+    margin-top: 0px;
+    height: 85px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px; 
+    font-size: 24px;
+    font-weight:lighter;
+}
+
+.login .loginCard .greenHeader h1{
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    margin: 0;
+}
+
+.login .loginCard .detailsPart{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #24E3A8;
+    height: 424px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px; 
+}
+
+.login .loginCard .detailsPart p{
+    font-size:large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.login .loginCard .detailsPart input:first-child{
+    width: 80%;
+    height: 40px;
+    border-color: 0.5px #17916B;
+    border-radius: 8px;
+    border-width: 1.5px;
+
+}
+
+.login .loginCard .detailsPart input{
+    margin-top:0px;
+    width: 80%;
+    height: 40px;
+    border-color: 0.5px #17916B;
+    border-radius: 8px;
+    border-width: 1.5px;
+
+}
+
+input::placeholder{
+    font-size: 17px;
+    color: #686868;
+    font-weight: lighter;
+}
+
+input:focus{
+    border-color: #17916B;
+    border-width: 1px;
+    box-shadow: #17916B;
+}
+
+.login .loginCard .detailsPart .signGoogle{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    flex-direction:row;
+    height: 30px;
+}
+
+.login .loginCard .detailsPart .signGoogle .googleImage{
+   margin-top: 0;
+   margin-right: 0;
+}
+
+.login .loginCard .detailsPart .signInBtn{
+    width: 70%;
+    height: 40px;
+    background-color:#17916B;
+    color: white;
+    border: none;
+    font-size: larger;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 10px;
+    /* margin-right: 150px; */
+}
+
+.login .loginCard .detailsPart .signInBtn:hover{
+    background-color: #cccdcc;
+    color: #17916B;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.signUpBtn:hover{
+    background-color: #2ef1b3;
+    color: white;
+    cursor: pointer;
+}
+
+.signUpBtn{
+    width: 70%;
+    height: 40px;
+    background:#D6D6D6;
+    color:#17916B;
+    border: none;
+    font-size: larger;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    border-radius: 10px;
+    /* margin-right: 150px;  */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.login .loginCard .detailsPart .signGoogle button{
+    margin-right: 10px;
+    width: 29px;
+    background: transparent;
+    border: none;
+}
+
+.login .loginCard .detailsPart .seperator{
+    width: 85%;
+    height: 3.5px;
+    background-color: #17916B;
+}
